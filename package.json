@@ -1,0 +1,16 @@
+{
+  "name": "layout-designer-project-58",
+  "version": "1.0.0",
+  "description": "[![Actions Status](https://github.com/Mikselll/layout-designer-project-58/workflows/hexlet-check/badge.svg)](https://github.com/Mikselll/layout-designer-project-58/actions)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mikselll/layout-designer-project-58.git"
+  },
+  "main": "",
+  "author": "Stas Kolosov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mikselll/layout-designer-project-58/issues"
+  },
+  "homepage": "https://github.com/Mikselll/layout-designer-project-58#readme"
+}
