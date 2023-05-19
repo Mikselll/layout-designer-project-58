@@ -135,8 +135,6 @@ header::before {
 .content__text_columns {
   display: flex;
   justify-content: space-between;
-
-  gap: 2rem;
 }
 
 .columns_width {
@@ -156,4 +154,18 @@ header::before {
   background-color: var(--color-main);
 
   cursor: pointer;
+}
+
+.main__video-section {
+  height: 800px;
+
+  text-align: center;
+}
+
+.video {
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
+.gap-2 {
+  gap: 2rem;
 }
