@@ -8,45 +8,80 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-  <header>
-    <div class="content">
+  <header class="pos-relative bg-light bg-image width-100">
+    <div class="pos-relative display-flex flex-column flex-x-between max-width-1110 min-height-900 margin-auto padding-100-0">
       <h1>
         Когнитивные
         <br>
         искажения
         <br>
-        <span class="content__heading_dark-color">в программировании</span>
+        <span class="color-dark">в программировании</span>
       </h1>
-      <img class="header__img" src="./images/main.png" alt="Тота с ноутбуком">
-      <div class="content__text_columns gap-2">
-        <div class="columns_width">
+      <img class="pos-absolute header__img" src="./images/main.png" alt="Тота с ноутбуком">
+      <div class="display-flex flex-x-between gap-2">
+        <div class="flex-basis-50">
           <p>Мы, разработчики, часто сталкиваемся с проблемами, которые идут вразрез с нашей продуктивностью. Но мы часто игнорируем целостную картину. Некоторые из этих проблем малозаметны, некоторые существенны. Иногда с ними можно как-то справиться, а иногда, к сожалению, нет.</p>
         </div>
-        <div class="columns_width">
+        <div class="flex-basis-50">
           <p>Вместе они формируют что-то вроде замкнутого цикла, и это может привести к длительной потере продуктивности, багам и бесконечному разочарованию.</p>
           <p>Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем сломать и цикл, а остатки нейтрализовать.</p>
-          <a class="btn" href="#">Подробнее</a>
+          <a class="btn mt-40" href="#">Подробнее</a>
         </div>
       </div>
     </div>
   </header>
-  <main>
-    <section class="main__video-section">
-      <div class="content gap-2">
-        <h2>
-          Что же это такое,
+  <main class="display-flex flex-x-center flex-wrap width-100">
+    <section class="width-100">
+      <div class="pos-relative display-flex flex-column flex-x-between flex-y-center margin-auto gap-2 top-100">
+        <h2 class="text-center">
+          <span class="color-dark">Что же это такое,</span>
           <br>
-          <span class="content__heading_dark-color">когнитивные искажения?</span>
+          когнитивные искажения?
         </h2>
-        Что такое когнитивные искажения. Petrovna Channel
+        <p class="margin-auto">Что такое когнитивные искажения. Petrovna Channel</p>
         <div>
           <iframe class="video" width="919" height="569" src="https://www.youtube.com/embed/jie9AizBqss" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
     </section>
-    <section>
-      <div class="content"></div>
-    </section>
+    <nav class="width-100 bg-dark-main" id="navigation">
+      <div class="max-width-1110 min-height-900 display-flex flex-column flex-x-center margin-auto mt-100">
+        <div class="display-flex flex-x-between">
+          <h2 class="max-width-350 min-height-350 font-size-52">
+            5 когнитивных искажений
+            <br>
+            <span class="color-white">о существовании которых стоит помнить</span> 
+          </h2>
+          <a class="max-width-350 min-height-350 padding-24 bg-light">
+            <h2 class="mb-40 font-size-64 color-dark-main line-height-1">1</h2>
+            <h3 class="mb-16">Эффект ИКЕА</h3>
+            <p>Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.</p>
+          </a>
+          <a class="max-width-350 min-height-350 padding-24 bg-light">
+            <h2 class="mb-40 font-size-64 color-dark-main line-height-1">2</h2>
+            <h3 class="mb-16">Преждевременная оптимизация</h3>
+            <p>Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</p>
+          </a>
+        </div>
+        <div class="display-flex flex-x-between mt-20">
+          <a class="max-width-350 min-height-350 padding-24 bg-light">
+            <h2 class="mb-40 font-size-64 color-dark-main line-height-1">3</h2>
+            <h3 class="mb-16">Искажение новизны</h3>
+            <p>Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.</p>
+          </a>
+          <a class="max-width-350 min-height-350 padding-24 bg-light">
+            <h2 class="mb-40 font-size-64 color-dark-main line-height-1">4</h2>
+            <h3 class="mb-16">Гиперболическое обесценивание</h3>
+            <p>Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но доступную в будущем.</p>
+          </a>
+          <a class="max-width-350 min-height-350 padding-24 bg-light">
+            <h2 class="mb-40 font-size-64 color-dark-main line-height-1">5</h2>
+            <h3 class="mb-16">Ошибка планирования</h3>
+            <p>Неправильно рассчитывать время необходимое для завершения задачи.</p>
+          </a>
+        </div>
+      </div>
+    </nav>
     <section>
       <div class="content"></div>
     </section>

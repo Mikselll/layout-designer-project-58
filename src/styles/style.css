@@ -36,6 +36,8 @@
 }
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -50,7 +52,6 @@ html {
 
 body {
   margin: 0;
-  padding: 0;
 
   overflow-x: hidden;
 }
@@ -81,17 +82,135 @@ h3 {
   font-size: 34px;
 }
 
-a {
-  text-decoration: none;
+.pos-relative {
+  position: relative;
 }
 
-header {
-  position: relative;
+.pos-absolute {
+  position: absolute;
+}
 
+.top-100 {
+  top: 100px;
+}
+
+.width-100 {
+  width: 100%;
+} 
+
+.max-width-1110 {
+  width: 1110px;
+}
+
+.max-width-350 {
+  max-width: 350px;
+}
+
+.min-height-900 {
+  height: 900px;
+}
+
+.min-height-350 {
+  max-height: 350px;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-x-center {
+  justify-content: center;
+}
+
+.flex-x-between {
+  justify-content: space-between;
+}
+
+.flex-y-center {
+  align-items: center;
+}
+
+.flex-basis-50 {
+  flex-basis: 50%;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.margin-auto {
+  margin: auto;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.padding-100-0 {
+  padding: 100px 0;
+}
+
+.padding-24 {
+  padding: 24px;
+}
+
+.font-size-64 {
+  font-size: 64px;
+}
+
+.font-size-52 {
+  font-size: 52px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.line-height-1 {
+  line-height: 1;
+}
+
+.color-dark {
+  color: var(--color-dark);
+}
+
+.color-white {
+  color: var(--colot-white);
+}
+
+.color-dark-main {
+  color: var(--color-dark-main);
+}
+
+.bg-light {
   background-color: var(--color-light);
 }
 
-header::before {
+.bg-dark-main {
+  background-color: var(--color-dark-main);
+}
+
+.bg-image::before {
   content: "";
 
   position: absolute;
@@ -107,59 +226,27 @@ header::before {
   opacity: 0.1;
 }
 
-.content {
-  position: relative;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  max-width: 1110px;
-  min-height: 900px;
-
-  margin: 0 auto;
-  padding: 100px 0;
-}
-
-.content__heading_dark-color {
-  color: var(--color-dark);
-}
-
 .header__img {
-  position: absolute;
   top: 55px;
   right: -270px;
 
   height: 525px;
 }
 
-.content__text_columns {
-  display: flex;
-  justify-content: space-between;
-}
-
-.columns_width {
-  flex-basis: 50%;
-}
-
 .btn {
   display: inline-block;
 
-  margin-top: 10px;
   padding: 12px 24px;
 
   font-weight: 700;
   text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
 
   color: var(--colot-white);
   background-color: var(--color-main);
 
   cursor: pointer;
-}
-
-.main__video-section {
-  height: 800px;
-
-  text-align: center;
 }
 
 .video {
