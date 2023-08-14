@@ -10,26 +10,25 @@
   --color-blue: #1085c5;
 }
 
-
 @font-face {
   font-weight: 400;
   font-family: "Open Sans";
-  src: url(../fonts/OpenSans-Regular.ttf);
+  src: url("../fonts/OpenSans-Regular.ttf");
 }
 @font-face {
   font-weight: 700;
   font-family: "Open Sans";
-  src: url(../fonts/OpenSans-Bold.ttf);
+  src: url("../fonts/OpenSans-Bold.ttf");
 }
 @font-face {
   font-weight: 300;
   font-family: "Open Sans";
-  src: url(../fonts/OpenSans-Light.ttf);
+  src: url("../fonts/OpenSans-Light.ttf");
 }
 @font-face {
   font-weight: 400;
   font-family: "Neucha";
-  src: url(../fonts/Neucha-Regular.ttf);
+  src: url("../fonts/Neucha-Regular.ttf");
 }
 
 * {
@@ -51,9 +50,7 @@ body {
   margin: 0;
 }
 
-h1, 
-h2, 
-h3 {
+h1, h2, h3 {
   margin: 0;
 
   font-weight: 400;
@@ -64,12 +61,15 @@ h3 {
 
   z-index: 1;
 }
+
 h1 {
   font-size: 72px;
 }
+
 h2 {
   font-size: 60px;
 }
+
 h3 {
   font-size: 34px;
 }
@@ -88,7 +88,7 @@ h3 {
 
 .width-100 {
   width: 100%;
-} 
+}
 
 .width-70 {
   width: 70px;
@@ -200,7 +200,7 @@ h3 {
 
 .p-55 {
   padding: 55px;
-} 
+}
 
 .p-24 {
   padding: 24px;
@@ -276,7 +276,7 @@ h3 {
   text-decoration: none;
 }
 
-.line-height-1_2 {
+.line-height-1-2 {
   line-height: 1.2;
 }
 
@@ -297,7 +297,7 @@ h3 {
 }
 
 .color-translucent-dark {
-  color: var(--color-translucent-dark)
+  color: var(--color-translucent-dark);
 }
 
 .color-translucent-white {
@@ -338,7 +338,7 @@ h3 {
   width: 100%;
   height: 100%;
 
-  background-image: url(../images/background.png);
+  background-image: url("../images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.1;
@@ -354,12 +354,12 @@ button::before {
   width: 20px;
   height: 20px;
 
-  background-image: url(../images/Vector.png);
+  background-image: url("../images/Vector.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.header__img {
+.header-img {
   top: 55px;
   right: -270px;
 
@@ -375,7 +375,7 @@ button::before {
 }
 
 .btn:hover {
-  background-color: #EA7600;
+  background-color: #ea7600;
 }
 
 #navigation a:hover {
